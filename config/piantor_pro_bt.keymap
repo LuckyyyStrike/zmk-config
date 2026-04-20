@@ -47,7 +47,7 @@
         };
 
         number {
-            display-name = "SYMBOL";
+            display-name = "number";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |  ^  |  &  |  *  |  (  |  )  | BSPC |
@@ -61,14 +61,14 @@
         };
 
         function {
-            display-name = "EXTRA 1";
+            display-name = "function";
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8  &kp F9  &caps_word  &none  &kp LC(C)  &kp LC(V)  &kp LC(X)  &none  &trans  &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LC(BACKSPACE)  &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &trans  &kp CAPSLOCK  &kp F10  &kp F1  &kp F2  &kp F3  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         nav {
-            display-name = "NUMBER";
+            display-name = "navigation";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5    |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -82,28 +82,28 @@
         };
 
         gaming {
-            display-name = "EXTRA 2";
+            display-name = "gaming";
             bindings = <
 &kp ESCAPE  &kp T  &kp Q  &kp W  &kp E  &kp R  &trans  &trans  &trans  &trans  &trans  &to 0  &kp TAB  &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp M  &trans  &trans  &trans  &trans  &trans  &trans  &kp I  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &trans  &trans  &trans  &trans  &trans  &trans  &kp F  &mo 5  &kp SPACE  &trans  &trans  &trans
             >;
         };
 
         gaming2 {
-            display-name = "EXTRA 3";
+            display-name = "gaming2";
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &trans  &kp NUMBER_3  &kp NUMBER_4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         system {
-            display-name = "EXTRA 4";
+            display-name = "system";
             bindings = <
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &rgb_ug RGB_TOG  &none  &none  &none  &none  &trans  &trans  &none  &none  &none  &none  &none  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_HUD  &none  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL  &sys_reset  &bootloader  &studio_unlock  &rgb_ug RGB_EFF  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFR  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mouse {
-            display-name = "EXTRA 5";
+            display-name = "mouse";
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &none  &none  &none  &none  &mkp MCLK  &mkp RCLK  &mkp LCLK  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &msc SCRL_DOWN  &msc SCRL_LEFT  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
